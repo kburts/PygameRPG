@@ -53,9 +53,16 @@ class Player(pygame.sprite.Sprite):
             self.sword_cooldown = 0.4
         if key[pygame.K_s] and not self.sword_cooldown:
             Sword(self.rect.midbottom, [0,10], game.sprites)
-            self.sword_cooldown = 0.4
+            self.sword_cooldown = 0.1
 
         self.sword_cooldown = max(0, self.sword_cooldown - dt)
+
+        #Drop a bomb... maybe?
+        if key[pygame.K_q] and not self.sword_cooldown:
+            Bomb(self.rect.topleft, Bomb.image, 0, game.sprites)
+            self.sword_cooldown = 0.4
+
+
 
         new = self.rect
 

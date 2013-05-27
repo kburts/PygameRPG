@@ -15,22 +15,18 @@ Name=RPG
 
 [Project\ChildNodes\Node0\ChildNodes\Node0\ChildNodes\Node0]
 ClassName=TProjectFileNode
-FileName=$[Project-Path]main 004.py
+FileName=$[Project-Path]NPC.py
 
 [Project\ChildNodes\Node0\ChildNodes\Node0\ChildNodes\Node1]
 ClassName=TProjectFileNode
-FileName=$[Project-Path]NPC.py
-
-[Project\ChildNodes\Node0\ChildNodes\Node0\ChildNodes\Node2]
-ClassName=TProjectFileNode
 FileName=$[Project-Path]Pickup.py
 
-[Project\ChildNodes\Node0\ChildNodes\Node0\ChildNodes\Node3]
+[Project\ChildNodes\Node0\ChildNodes\Node0\ChildNodes\Node2]
 ClassName=TProjectFileNode
 FileName=$[Project-Path]tmx.py
 
 [Project\ChildNodes\Node0\ChildNodes\Node0\ChildNodes]
-Count=4
+Count=3
 
 [Project\ChildNodes\Node0\ChildNodes]
 Count=1

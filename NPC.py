@@ -2,6 +2,7 @@ import pygame
 import tmx
 import sys
 import random
+import os
 
 
 class Enemy_rat(pygame.sprite.Sprite):

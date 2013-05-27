@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="dg_grounds32" tilewidth="32" tileheight="32">
+  <image source="AngbandTk/dg_grounds32.gif" width="288" height="608"/>
+ </tileset>
+ <tileset firstgid="172" name="dg_edging132" tilewidth="32" tileheight="32">
+  <image source="AngbandTk/dg_edging132.gif" width="256" height="512"/>
+ </tileset>
+ <tileset firstgid="300" name="triggers" tilewidth="32" tileheight="32">
+  <image source="../Richard Jones Pygame/r1chardj0n3s-pygame-tutorial-995c364f087c/triggers.png" width="192" height="32"/>
+ </tileset>
+ <layer name="MainStuff" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJyTZWRgkCWAtzAwMKgC6e0MhNXiw2uA+tcC8T6oeXuhfGx4PRF2wdxFDCbG7UeAao7iwdsYsJu3hgruRzYPm7+IcT8285DDmxLzYHFFSfhi8xd6uJJr3lZoHOGyB19ag+F9JMQHqXgomUdsPtiKR81xEsoKUsoXAM0KW0A=
+  </data>
+ </layer>
+ <layer name="Shrubs" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAwnUGAfaBZSD4eAHeoPBFGaDyS2EAAApOwCd
+  </data>
+ </layer>
+ <objectgroup name="triggers" width="20" height="15" visible="0">
+  <properties>
+   <property name="platform" value=""/>
+  </properties>
+  <object name="player" gid="300" x="282" y="400">
+   <properties>
+    <property name="player" value=""/>
+   </properties>
+  </object>
+  <object name="Shoreline" x="366" y="1" width="8" height="49">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="Shoreline" x="295" y="1" width="8" height="49">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="Shoreline" x="231" y="56" width="8" height="49">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="Shoreline" x="42" y="153" width="8" height="49">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="Shoreline" x="40" y="277" width="7" height="155">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="Shoreline" x="366" y="435" width="8" height="49">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="Shoreline" x="296" y="436" width="8" height="49">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="Shoreline" x="207" y="151" width="7" height="155">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="Shoreline" x="489" y="115" width="7" height="182">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="Shoreline" x="591" y="278" width="7" height="155">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="Shoreline" x="593" y="53" width="7" height="155">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="Shoreline" x="598" y="274" width="42" height="12">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="Shoreline" x="601" y="196" width="42" height="12">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="Shoreline" x="1" y="272" width="42" height="12">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="Shoreline" x="1" y="196" width="42" height="12">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="Shoreline" x="39" y="433" width="264" height="5">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="Shoreline" x="372" y="434" width="223" height="5">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="Shoreline" x="209" y="300" width="286" height="5">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="Shoreline" x="230" y="109" width="264" height="5">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="Shoreline" x="366" y="44" width="227" height="6">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="Shoreline" x="232" y="45" width="64" height="6">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+  <object name="Shoreline" x="44" y="142" width="165" height="5">
+   <properties>
+    <property name="blockers" value="t"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

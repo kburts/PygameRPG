@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="dg_edging232" tilewidth="32" tileheight="32">
+  <image source="Level02/dg_edging232.gif" width="256" height="544"/>
+ </tileset>
+ <tileset firstgid="137" name="dg_dungeon32" tilewidth="32" tileheight="32">
+  <image source="Level02/dg_dungeon32.gif" width="288" height="320"/>
+ </tileset>
+ <tileset firstgid="227" name="dg_grounds32" tilewidth="32" tileheight="32">
+  <image source="Level02/dg_grounds32.gif" width="288" height="608"/>
+ </tileset>
+ <tileset firstgid="398" name="triggers" tilewidth="32" tileheight="32">
+  <image source="Level01/triggers.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="404" name="monsters" tilewidth="32" tileheight="32">
+  <image source="Level01/monsters.png" width="192" height="512"/>
+ </tileset>
+ <tileset firstgid="500" name="Pickupables 25x25" tilewidth="25" tileheight="25">
+  <image source="Level01/Pickupables 25x25.png" width="50" height="25"/>
+ </tileset>
+ <layer name="MainLayer" width="40" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxbwsDAsGSQY2ZG/JgYNbTAI8191PYHsfFOK/dtJqB+qITfDCqZSyv3UdM8WriPnmXVcAy/UfeNum8g3TeYMQD+4mXk
+  </data>
+ </layer>
+ <objectgroup name="triggers" width="40" height="15" visible="0">
+  <object gid="398" x="40" y="235">
+   <properties>
+    <property name="player" value=""/>
+   </properties>
+  </object>
+  <object x="1001" y="140" width="13" height="14">
+   <properties>
+    <property name="levelend" value=""/>
+   </properties>
+  </object>
+  <object name="wall" x="32" y="256" width="576" height="32">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object name="wall" x="608" y="96" width="32" height="352">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object name="wall" x="288" y="0" width="32" height="192">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object name="wall" x="0" y="0" width="32" height="480">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object name="wall" x="32" y="128" width="192" height="32">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object name="wall" x="32" y="448" width="1216" height="32">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object gid="430" x="352" y="224">
+   <properties>
+    <property name="enemy" value=""/>
+   </properties>
+  </object>
+  <object gid="401" x="448" y="224">
+   <properties>
+    <property name="reverse" value=""/>
+   </properties>
+  </object>
+  <object gid="401" x="224" y="224">
+   <properties>
+    <property name="reverse" value=""/>
+   </properties>
+  </object>
+  <object name="wall" x="32" y="0" width="1216" height="32">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+  <object name="wall" x="1248" y="0" width="32" height="480">
+   <properties>
+    <property name="blockers" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="pickups" width="40" height="15" visible="0">
+  <object gid="501" x="992" y="224">
+   <properties>
+    <property name="heart_container" value=""/>
+   </properties>
+  </object>
+  <object gid="500" x="32" y="64">
+   <properties>
+    <property name="heart" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
