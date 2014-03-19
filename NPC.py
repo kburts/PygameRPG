@@ -29,7 +29,7 @@ class Enemy_rat(pygame.sprite.Sprite):
         self.damage_cooldown = max(0, self.damage_cooldown -dt)
 
 class Boss_elmo(pygame.sprite.Sprite):
-    image = pygame.image.load('data/images/sprites/NPC/elmo.png')
+    image = pygame.image.load('data/images/sprites/NPC/Elmo.png')
     def __init__(self, location, *groups):
         super(Boss_elmo, self).__init__(*groups)
         self.rect = pygame.rect.Rect(location, self.image.get_size())
